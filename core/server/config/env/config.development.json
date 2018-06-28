@@ -1,5 +1,5 @@
 {
-    "url": "https://superpowerup.now.sh",
+    "url": "http://0.0.0.0:2368"
     "mail": {
         "transport": "SMTP",
         "options": {
