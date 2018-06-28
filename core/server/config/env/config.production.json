@@ -1,5 +1,5 @@
 {
-    "url": "http://0.0.0.0:2368",
+    "url": 'http://'+process.env.OPENSHIFT_APP_DNS,
     "mail": {
         "transport": "SMTP",
         "options": {
