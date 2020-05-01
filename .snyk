@@ -1,0 +1,56 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - lodash:
+        patched: '2020-05-01T04:09:52.359Z'
+    - amperize > lodash:
+        patched: '2020-05-01T04:09:52.359Z'
+    - analytics-node > lodash:
+        patched: '2020-05-01T04:09:52.359Z'
+    - archiver > lodash:
+        patched: '2020-05-01T04:09:52.359Z'
+    - bookshelf > lodash:
+        patched: '2020-05-01T04:09:52.359Z'
+    - bookshelf-relations > lodash:
+        patched: '2020-05-01T04:09:52.359Z'
+    - knex > lodash:
+        patched: '2020-05-01T04:09:52.359Z'
+    - ghost-gql > lodash:
+        patched: '2020-05-01T04:09:52.359Z'
+    - ghost-ignition > lodash:
+        patched: '2020-05-01T04:09:52.359Z'
+    - gscan > lodash:
+        patched: '2020-05-01T04:09:52.359Z'
+    - knex-migrator > lodash:
+        patched: '2020-05-01T04:09:52.359Z'
+    - '@nexes/nql > @nexes/mongo-knex > lodash':
+        patched: '2020-05-01T04:09:52.359Z'
+    - amperize > async > lodash:
+        patched: '2020-05-01T04:09:52.359Z'
+    - archiver > async > lodash:
+        patched: '2020-05-01T04:09:52.359Z'
+    - archiver > archiver-utils > lodash:
+        patched: '2020-05-01T04:09:52.359Z'
+    - archiver > zip-stream > lodash:
+        patched: '2020-05-01T04:09:52.359Z'
+    - bookshelf-relations > ghost-ignition > lodash:
+        patched: '2020-05-01T04:09:52.359Z'
+    - gscan > ghost-ignition > lodash:
+        patched: '2020-05-01T04:09:52.359Z'
+    - knex-migrator > ghost-ignition > lodash:
+        patched: '2020-05-01T04:09:52.359Z'
+    - brute-knex > eslint > lodash:
+        patched: '2020-05-01T04:09:52.359Z'
+    - brute-knex > knex > lodash:
+        patched: '2020-05-01T04:09:52.359Z'
+    - knex-migrator > knex > lodash:
+        patched: '2020-05-01T04:09:52.359Z'
+    - archiver > zip-stream > archiver-utils > lodash:
+        patched: '2020-05-01T04:09:52.359Z'
+    - brute-knex > eslint > inquirer > lodash:
+        patched: '2020-05-01T04:09:52.359Z'
+    - brute-knex > eslint > table > lodash:
+        patched: '2020-05-01T04:09:52.359Z'
